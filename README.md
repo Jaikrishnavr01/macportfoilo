@@ -17,6 +17,11 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 
-<!-- import day js libaray -->
+* import day js libaray
 -- npm i dayjs
 
+** gsap
+
+npm i gsap @gsap/react
+
+npm add lucide-react
