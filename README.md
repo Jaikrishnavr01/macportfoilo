@@ -25,3 +25,5 @@ If you are developing a production application, we recommend using TypeScript wi
 npm i gsap @gsap/react
 
 npm add lucide-react
+
+npm install react-tooltip
