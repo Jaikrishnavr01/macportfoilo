@@ -27,3 +27,10 @@ npm i gsap @gsap/react
 npm add lucide-react
 
 npm install react-tooltip
+
+
+* for statemangement
+
+npm i zustand
+
+npm i immer
