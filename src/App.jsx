@@ -1,4 +1,4 @@
-import { Dock, Navbar, Welcome } from "#components";
+import { Dock, Home, Navbar, Welcome } from "#components";
 import React from 'react'
 import gsap from "gsap";
 
@@ -21,6 +21,8 @@ const App = () => {
          <Text />
          <ImageWindowContent />
          <Contact /> 
+         
+         <Home />
     </main>
   )
 }
