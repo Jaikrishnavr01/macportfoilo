@@ -44,16 +44,16 @@ const dockApps = [
   },
   {
     id: "safari",
-    name: "Articles", // was "Safari"
+    name: "My Recent Works", // was "Safari"
     icon: "safari.png",
     canOpen: true,
   },
-  {
-    id: "photos",
-    name: "Gallery", // was "Photos"
-    icon: "photos.png",
-    canOpen: true,
-  },
+  // {
+  //   id: "photos",
+  //   name: "Gallery", // was "Photos"
+  //   icon: "photos.png",
+  //   canOpen: true,
+  // },
   {
     id: "contact",
     name: "Contact", // or "Get in touch"
@@ -77,52 +77,51 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Sep 2, 2025",
     title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-    image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+      "RoleLink CRM – Admin • Engineer • Customer Management",
+    image: "/images/crm.jpeg",
+    link: "https://jaikrishna-crm.netlify.app/",
   },
   {
     id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-    image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    title: "MBA – Online Ticket Booking System",
+    image: "/images/movie.png",
+    link: "https://moviebookingwebsite.netlify.app/",
   },
   {
     id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
-    image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    title: "Iphone website clone",
+    image: "/images/iphone.png",
+    link: "https://effervescent-semolina-ff54e8.netlify.app/",
+  },
+  {
+    id: 4,
+    title: "Hotel Booking Website",
+    image: "/images/hotel.png",
+    link: "https://jaikrishna-hotelwebsite.netlify.app/",
   },
 ];
 
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
-  },
-  {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
+    items: ["React.js", "Html", "JavaScript"],
   },
   {
     category: "Styling",
-    items: ["Tailwind CSS", "Sass", "CSS"],
+    items: ["Tailwind CSS", "Bootstrap", "CSS"],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    items: ["Node.js", "Express"],
   },
   {
     category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    items: ["MongoDB"],
   },
   {
     category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
+    items: ["Git", "GitHub", "VS Code"],
   },
 ];
 
@@ -225,7 +224,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "CRM – Admin • Engineer • Customer Management",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -233,44 +232,36 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "CrmProject.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "Our CRM System is a powerful platform designed to streamline communication between Admins, Engineers, and Customers.",
+            "Instead of relying on manual tracking, users can manage tickets, monitor progress, and ensure faster issue resolution—all in one place.",
+            "Think of it as a smart bridge that keeps every stakeholder connected, informed, and productive at every stage of the workflow.",
+            "Built using the MERN stack, it delivers a seamless, secure, and responsive experience across devices with a clean, modern interface.",
           ],
+
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "jaikrishna-crm.netlify.app",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://jaikrishna-crm.netlify.app/",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "nike.png",
+          name: "crm.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 right-20",
+          imageUrl: "/images/crm.png",
         },
       ],
     },
@@ -278,7 +269,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "Iphone website clone",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -286,52 +277,53 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "Iphone website clone.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+            "Our iPhone Website Clone is a sleek and modern recreation of Apple’s iconic product page experience.",
+            "Instead of simple static layouts, it delivers smooth animations, dynamic sections, and a premium feel that mirrors Apple’s design language.",
+            "Think of it like a mini Apple showcase—highlighting product details, features, and visuals with elegance and precision.",
+            "It's built with Next.js and Tailwind, ensuring fast performance, pixel-perfect responsiveness, and a refined, professional UI across all devices.",
           ],
+
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "effervescent-semolina-ff54e8.netlify.app",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://effervescent-semolina-ff54e8.netlify.app/",
           position: "top-20 left-20",
         },
         {
           id: 4,
-          name: "ai-resume-analyzer.png",
+          name: "Iphone website clone.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
-          imageUrl: "/images/project-2.png",
+          imageUrl: "/images/iphone.png",
         },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 left-5",
-        },
+        // {
+        //   id: 5,
+        //   name: "Design.fig",
+        //   icon: "/images/plain.png",
+        //   kind: "file",
+        //   fileType: "fig",
+        //   href: "https://google.com",
+        //   position: "top-60 left-5",
+        // },
       ],
     },
 
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "Movie Booking Website",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -339,45 +331,47 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "Movie Booking Website.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "Our Movie Booking Website is a seamless platform that makes discovering and reserving movie tickets effortless for users.",
+            "Instead of standing in queues or switching between multiple apps, users can browse movies, check showtimes, and book seats instantly—all in one place.",
+            "Think of it as a complete movie companion—helping users explore films, select preferred seats, and enjoy a smooth, hassle-free booking experience.",
+            "Built using the MERN stack, it offers fast performance, secure bookings, and a clean, modern interface optimized for all devices.",
           ],
+
+
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "moviebookingwebsite.netlify.app",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "https://moviebookingwebsite.netlify.app/",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "food-delivery-app.png",
+          name: "Movie booking.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-3.png",
+          imageUrl: "/images/movie.png",
         },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 right-20",
-        },
+        // {
+        //   id: 5,
+        //   name: "Design.fig",
+        //   icon: "/images/plain.png",
+        //   kind: "file",
+        //   fileType: "fig",
+        //   href: "https://google.com",
+        //   position: "top-60 right-20",
+        // },
       ],
     },
   ],
@@ -397,41 +391,42 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/me.png",
     },
-    {
-      id: 2,
-      name: "casual-me.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
-    },
-    {
-      id: 3,
-      name: "conference-me.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
-    },
+    // {
+    //   id: 2,
+    //   name: "casual-me.png",
+    //   icon: "/images/image.png",
+    //   kind: "file",
+    //   fileType: "img",
+    //   position: "top-28 right-72",
+    //   imageUrl: "/images/adrian-2.jpg",
+    // },
+    // {
+    //   id: 3,
+    //   name: "conference-me.png",
+    //   icon: "/images/image.png",
+    //   kind: "file",
+    //   fileType: "img",
+    //   position: "top-52 left-80",
+    //   imageUrl: "/images/adrian-3.jpeg",
+    // },
     {
       id: 4,
       name: "about-me.txt",
       icon: "/images/txt.png",
       kind: "file",
       fileType: "txt",
-      position: "top-60 left-5",
+      position: "top-10 right-72",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      image: "/images/me.png",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "Hey! I’m Jai Krishna 👋, a MERN stack web developer who loves turning ideas into clean, functional, and visually pleasing web experiences.",
+        "I specialize in JavaScript, React, Node.js, Express, and MongoDB—building fast, responsive apps that feel smooth and intuitive to use.",
+        "I’m all about clean UI, solid UX, and writing code that future-me won’t panic about when debugging 😄.",
+        "When I’m not coding, you’ll probably find me designing new layouts, exploring cool tech, or sipping chai while planning my next side project ☕✨",
       ],
+
     },
   ],
 };
@@ -491,16 +486,63 @@ export const locations = {
 };
 
 const INITIAL_Z_INDEX = 1000;
-
 const WINDOW_CONFIG = {
-  finder: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
-  contact: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
-  resume: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
-  safari: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
-  photos: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
-  terminal: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
-  txtfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
-  imgfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  finder: {
+    isOpen: false,
+    isMinimized: false,
+    isMaximized: false,
+    zIndex: INITIAL_Z_INDEX,
+    data: null,
+  },
+  contact: {
+    isOpen: false,
+    isMinimized: false,
+    isMaximized: false,
+    zIndex: INITIAL_Z_INDEX,
+    data: null,
+  },
+  resume: {
+    isOpen: false,
+    isMinimized: false,
+    isMaximized: false,
+    zIndex: INITIAL_Z_INDEX,
+    data: null,
+  },
+  safari: {
+    isOpen: false,
+    isMinimized: false,
+    isMaximized: false,
+    zIndex: INITIAL_Z_INDEX,
+    data: null,
+  },
+  photos: {
+    isOpen: false,
+    isMinimized: false,
+    isMaximized: false,
+    zIndex: INITIAL_Z_INDEX,
+    data: null,
+  },
+  terminal: {
+    isOpen: false,
+    isMinimized: false,
+    isMaximized: false,
+    zIndex: INITIAL_Z_INDEX,
+    data: null,
+  },
+  txtfile: {
+    isOpen: false,
+    isMinimized: false,
+    isMaximized: false,
+    zIndex: INITIAL_Z_INDEX,
+    data: null,
+  },
+  imgfile: {
+    isOpen: false,
+    isMinimized: false,
+    isMaximized: false,
+    zIndex: INITIAL_Z_INDEX,
+    data: null,
+  },
 };
 
 export { INITIAL_Z_INDEX, WINDOW_CONFIG };
