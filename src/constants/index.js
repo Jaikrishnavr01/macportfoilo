@@ -44,7 +44,7 @@ const dockApps = [
   },
   {
     id: "safari",
-    name: "Articles", // was "Safari"
+    name: "My Recent Works", // was "Safari"
     icon: "safari.png",
     canOpen: true,
   },
@@ -77,25 +77,28 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Sep 2, 2025",
     title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-    image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+      "RoleLink CRM – Admin • Engineer • Customer Management",
+    image: "/images/crm.jpeg",
+    link: "https://jaikrishna-crm.netlify.app/",
   },
   {
     id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-    image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    title: "MBA – Online Ticket Booking System",
+    image: "/images/movie.png",
+    link: "https://moviebookingwebsite.netlify.app/",
   },
   {
     id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
-    image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    title: "Iphone website clone",
+    image: "/images/iphone.png",
+    link: "https://effervescent-semolina-ff54e8.netlify.app/",
+  },
+    {
+    id: 4,
+    title: "Hotel Booking Website",
+    image: "/images/hotel.png",
+    link: "https://jaikrishna-hotelwebsite.netlify.app/",
   },
 ];
 
@@ -221,7 +224,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+       name: "CRM – Admin • Engineer • Customer Management",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -274,7 +277,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "Iphone website clone",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",

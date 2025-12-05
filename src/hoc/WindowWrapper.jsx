@@ -54,8 +54,8 @@ const WindowWrapper = (Component, windowKey) => {
 
       // Maximize
       if (isMaximized) {
-        el.style.width = "100vw";
-        el.style.height = "100vh";
+        el.style.width = "90vw";
+        el.style.height = "90vh";
         el.style.top = "0";
         el.style.left = "0";
         el.style.borderRadius = "0";

@@ -34,3 +34,7 @@ npm install react-tooltip
 npm i zustand
 
 npm i immer
+
+npm i react-pdf
+
+npm i clsx
